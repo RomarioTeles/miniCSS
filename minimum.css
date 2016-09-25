@@ -1,0 +1,218 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+a, a:hover, a:visited, a:active, a:focus{
+  color: #3F51B5;
+  text-decoration: none;
+}
+
+a:hover, a:focus{
+  opacity: 0.8;
+}
+
+blockquote::before, blockquote::after{
+  content: "\"";
+  font-size: 2em;
+  font-style: italic;
+}
+
+button{
+  padding: 0.2em 0.5em;
+  border-style: none;
+  font-weight: bold;
+  border-radius: 0.2em;
+  border: none;
+}
+
+button:hover, button:focus{
+  opacity: 0.8;
+  color: black;
+  border: none;
+}
+
+button.primary{
+  background: #3F51B5;
+  color: white;
+}
+
+button.success{
+  background: #4CAF50;
+  color: white;
+}
+
+button.danger{
+  background: #F44336;
+  color: white;
+}
+
+button.warn{
+  background: #FF9800;
+  color: white;
+}
+button.info{
+  background: #2196F3;
+  color: white;
+}
+
+button.small{
+  font-size: 0.75em;
+}
+
+button.large{
+  font-size: 1.25em;
+}
+
+button.extra-large{
+  font-size: 1.5em;
+}
+
+input, select{
+  padding: 0.2em;
+  border-radius: 0.2em;
+  border: 1px solid #ccc;
+  width: inherit;
+}
+
+input:focus, textarea:focus, select:focus{
+  border-color: #2196F3;
+  outline: none;
+}
+
+select{
+  background: white;
+  min-width: 200px;
+}
+
+input.small{
+  font-size: 0.75em;
+}
+
+input.large{
+  font-size: 1.25em;
+}
+
+input.extra-large{
+  font-size: 1.5em;
+}
+
+.checkbox, .radio{
+  display: inline-block;
+}
+
+.container{
+  padding: 1.2em;
+}
+
+.row{
+  display: -webkit-flex;
+  display: flex;
+  padding: 0.5em 0 0.5em 0;
+}
+
+.row.horizontal{
+  flex-direction: column !important;
+  -webkit-flex-direction: column !important;
+}
+
+.row.horizontal *{
+  display: block;
+}
+
+.column{
+  -webkit-flex: 1; /* Safari 6.1+ */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1;
+    width: 100%;
+}
+
+.column *{
+  margin: 0.2em;
+}
+
+.column-5{
+  flex: 0 0 5%;
+  max-width: 5%;
+}
+
+
+.column-10{
+  flex: 0 0 10%;
+  max-width: 10%;
+}
+
+.column-15{
+  flex: 0 0 15%;
+  max-width: 15%;
+}
+
+.column-20{
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+.column-25{
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.column-30{
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+
+.column-33{
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+.column-40{
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+
+.column-45{
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+
+.column-50{
+  flex: 50%;
+  max-width: 50%;
+}
+
+.column-60{
+  flex: 60%;
+  max-width: 60%;
+}
+
+.column-66{
+  flex: 66.666%;
+  max-width: 66.666%;
+}
+
+.column-70{
+  flex: 70%;
+  max-width: 70%;
+}
+
+.column-80{
+  flex: 80%;
+  max-width: 80%;
+}
+
+.column-85{
+  flex: 85%;
+  max-width: 85%;
+}
+
+.column-90{
+  flex: 0 0 90%;
+  max-width: 90%;
+}
